@@ -3,50 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Profile</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f8; /* Light, professional background */
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #22457a; /* Darker blue for headings */
-        }
-        a {
-            color: #3366cc; /* Standard blue for links */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .profile-info {
-            margin-bottom: 30px;
-        }
-        .projects-link {
-            text-align: center;
-            margin-top: 30px;
-        }
-    </style>
+    <title>Your Name - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile-info">
+    <header>
+        <div class="container">
             <h1>Your Name</h1>
-            <h2>Your Title/Profession</h2>
-            <p>Write a brief, engaging description of yourself here. Mention your skills, interests, and what you're passionate about. You can also include your career goals or the type of projects you enjoy working on.</p>
-            </div>
-
-        <div class="projects-link">
-            <a href="projects.html">View My Projects</a>
+            <h2>Your Title (e.g., Full-Stack Developer, Data Scientist)</h2>
         </div>
-    </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Write a compelling introduction about yourself here. Highlight your skills, experience, and career goals.
+                You can mention your passion for technology, your preferred programming languages, and any relevant
+                certifications or achievements. Keep it concise and engaging.
+            </p>
+            <p>
+                Here is an example: 
+                "I am a passionate and driven full-stack developer with a strong foundation in both front-end and back-end technologies.
+                 I have a keen interest in building user-friendly, efficient, and scalable web applications. 
+                 My expertise includes JavaScript, Python, React, Node.js, and SQL. I am always eager to learn new technologies 
+                 and methodologies to enhance my skills and contribute to innovative projects."
+            </p>
+            <p>
+                You can also add:
+                <ul>
+                    <li>Links to your LinkedIn, Twitter, or other professional profiles.</li>
+                    <li>A downloadable link to your resume.</li>
+                </ul>
+            </p>
+            
+        </div>
+    </section>
+
+    <section id="projects-link">
+        <div class="container">
+            <a href="projects.html" class="button">View My Projects</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
