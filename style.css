@@ -115,3 +115,12 @@ footer {
 .project-card p {
     margin-bottom: 20px;
 }
+
+.profile-photo {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Create a circular shape */
+  object-fit: cover; /* Ensure the image covers the circular area */
+  float: left; /* Align the photo to the left */
+  margin-right: 20px; /* Add some space to the right of the photo */
+}
