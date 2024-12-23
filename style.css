@@ -36,6 +36,8 @@ a:hover {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin: 0 auto; /* Add this line to center the button */
+    width: fit-content; /* This ensures the button takes up only the necessary width */
 }
 
 .button:hover {
