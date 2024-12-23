@@ -39,6 +39,7 @@ a:hover {
     margin: 0 auto; /* Add this line to center the button */
     width: fit-content; /* This ensures the button takes up only the necessary width */
     align-self: center;
+    margin-top: auto; 
 }
 
 .button:hover {
